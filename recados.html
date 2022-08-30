@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/recados.css">
+    <title>Página Inicial - Meus Recados</title>
+</head>
+
+<body>
+    <div class="main-recado">
+        <h1>Meus Recados</h1>
+        <p><span id="span">Bem-vindo aos seus recados, </span> <span id="idUsuario"></span></p>
+      
+        <form id="formSalvar" class="topo-m">
+            <input id="descricao" type="text" name="Descrição" placeholder="Descrição" class="descricao">
+            <input id="detalhes" type="text" name="Detalhamento" placeholder="Detalhamento" class="detalhamento">
+            <input type="submit" class="btn-salvar" value="Salvar">
+        </form>
+
+        <div>
+            <table id="meusRecados" class="detalhes">
+                <tr>
+                    <th>#</th>
+                    <th>Descrição</th>  
+                    <th>Detalhamento</th>
+                    <th>Ação</th>
+                </tr>
+                <!-- <tr id>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> <button type="submit" id="editar-btn" class="editar-btn">Editar</button>
+                        <button type="submit" id="apagar-btn" class="apagar-btn">Apagar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button id="editar-btn">Editar</button>
+                        <button id="apagar-btn">Apagar</button>
+                    </td>
+                </tr> -->
+            </table>
+        </div>
+        <button type="submit" id="btnSair" class="btn-sair">Sair</button>
+        <script src="./js/recados.js"></script>
+</body>
+</html>
